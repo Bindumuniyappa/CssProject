@@ -1,0 +1,246 @@
+
+body{
+/* background: black; */
+    opacity: 0.5;
+}
+
+.top-section{
+font-size: 30px;
+font-weight: bold;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+padding-left: 100px;
+padding-top: 10px;
+height: 60px;
+}
+#task{
+    color: rgb(87, 156, 230);
+
+}
+.fa-solid{
+    font-size: 50px;
+   /* color: black; */
+   position: relative;
+   top: 30px;
+   left: 1000px;  
+}
+.fa-circle-plus{
+    /* background: #00A5EC; */
+        color:#00A5EC;
+        background:#F7F7F7;
+}
+.second-container{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.New-Task{
+position: absolute;
+top: 40px;
+left: 1070px;
+font-size: 25px;
+text-shadow: 2px;
+font-weight: lighter;
+}
+.box1{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    width: 300px;
+    height: 300px;
+    /* background-color:blue; */
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+   
+    
+}
+.box2 {
+    position: absolute;
+    top: 180px;
+        left: 410px;
+        width: 300px;
+        height: 300px;
+    /* background-color:violet; */
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    
+}
+.box3 {
+    position: absolute;
+    top: 180px;
+        left: 720px;
+        width: 300px;
+        height: 300px;
+    /* background-color:peru; */
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    
+}
+.box4 {
+    position: absolute;
+    top: 500px;
+        left: 100px;
+        width: 300px;
+        height: 300px;
+    /* background-color:#00A5EC ; */
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+   
+    
+}
+.box5 {
+    position: absolute;
+top: 500px;
+    left: 410px;
+    width: 300px;
+    height: 300px;
+    /* background-color: palevioletred; */
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    
+}
+.box1:hover{
+    border:2px solid #FFFFFF;
+   -webkit-box-shadow:0 0 20px #67676729;
+   box-shadow:0 0 20px #67676729;
+    
+}
+.box2:hover {
+    border: 2px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 20px #67676729;
+    box-shadow: 0 0 20px #67676729;
+}
+.box3:hover {
+    border: 2px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 20px #67676729;
+    box-shadow: 0 0 20px #67676729;
+}
+.box4:hover {
+    border: 2px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 20px #67676729;
+    box-shadow: 0 0 20px #67676729;
+}
+.box5:hover {
+    border: 2px solid #FFFFFF;
+    -webkit-box-shadow: 0 0 20px #67676729;
+    box-shadow: 0 0 20px #67676729;
+}
+.textBox1{
+    font-size: 20px;
+    color: #00A5EC; 
+    /* background-color: aqua; */
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.fa-square-check{
+background-color:white ;
+color: #C2C2C2;
+font-size: 30px;
+position: relative;
+top: 10px;
+left: 20px;
+
+
+}
+.textCheck1{
+    position: relative;
+    bottom: 15px;
+    left: 55px;
+    color:#C2C2C2 ;
+    text-decoration: line-through;
+
+}
+#text1{
+    color: #424242;
+    position: relative;
+    top: 5px;
+    left: 30px;
+}
+.fa-square{
+    border: #EDEDED;
+background-color: white;
+    color: #C2C2C2;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.fa-duotone{
+    font-size: 20px;
+}
+.page2{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid red;
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    /* z-index: 5; */
+    /* opacity: 0.5; */
+
+}
+.htmlpage2{
+
+border: 1px solid red;
+
+
+
+}
+.contentForPage2{
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+
+}
+.fa-square-xmark{
+    font-size: 50px;
+    background-color:red;
+    color:black;
+    position: relative;
+        top: 100px;
+        left: 200px;
+        
+}
+.inputbox{
+    width: 350px;
+    height: 30px;
+    background:#F7F7F7;
+    border-radius: 6px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    border:1px solid #EDEDED;
+
+}
+.text2{
+    color: #858585;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+
+    
+}
+.addtaskPlus{
+    width: 100px;
+    height: 30px;
+    background-color: #00A5EC;
+    border: 1px solid #00A5EC ;
+    color: white;
+    font: 10px;
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+
