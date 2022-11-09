@@ -44,7 +44,7 @@ body {
 .box1 {
   position: absolute;
   top: 180px;
-  left: 40%;
+  left: 100px;
   width: 300px;
   height: 300px;
   cursor: pointer;
@@ -252,4 +252,15 @@ border: 1px solid red;
 }
 .page3 {
   position: relative;
+}
+.singleBox {
+  position: absolute;
+  top: 180px;
+  left: 40%;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ededed;
 }
