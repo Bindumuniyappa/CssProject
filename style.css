@@ -33,7 +33,7 @@ body {
 .New-Task {
   position: absolute;
   top: 40px;
-  left: 80px;
+  left: 1050px;
   font-size: 25px;
   text-shadow: 2px;
   font-weight: lighter;
@@ -257,10 +257,21 @@ border: 1px solid red;
   position: absolute;
   top: 180px;
   left: 40%;
-  width: 300px;
-  height: 300px;
+  width: 380px;
+  height: 250px;
   cursor: pointer;
   border-radius: 10px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #ededed;
+}
+.backtohome {
+  font-size: 22px;
+  position: relative;
+  top: 24px;
+  left: 38%;
+}
+.fa-arrow-left {
+  position: relative;
+  left: 33%;
+  font-size: 30px;
 }
